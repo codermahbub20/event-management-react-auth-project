@@ -6,8 +6,10 @@ const Navbar = () => {
     const routeLinks = <>
         <li><Link to="/">Home</Link></li>
         <li><Link>Services</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
         <li><Link>Login</Link></li>
         <li><Link>Register</Link></li>
+        <li><Link to="/footer">Footer</Link></li>
     </>
 
     return (

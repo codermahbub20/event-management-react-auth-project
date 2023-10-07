@@ -1,7 +1,9 @@
+import Gallery from "../Gallery/Gallery";
 
 const Home = () => {
     return (
-        <div className="hero lg:min-h-screen" style={{ backgroundImage: 'url(https://www.rajibweb.com/html/fitme/screen-short/bg.jpg)' }}>
+      <div>
+          <div className="hero lg:min-h-screen" style={{ backgroundImage: 'url(https://www.rajibweb.com/html/fitme/screen-short/bg.jpg)' }}>
             <div className="hero-overlay bg-black bg-opacity-70"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-xl">
@@ -11,6 +13,9 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <Gallery></Gallery>
+      </div>
+        
     );
 };
 
