@@ -3,7 +3,7 @@ import Gallery from "../Gallery/Gallery";
 const Home = () => {
     return (
       <div>
-          <div className="hero lg:min-h-screen" style={{ backgroundImage: 'url(https://www.rajibweb.com/html/fitme/screen-short/bg.jpg)' }}>
+          <div className="hero sm:min-h-screen md:min-h-[80vh] lg:min-h-screen " style={{ backgroundImage: 'url(https://www.rajibweb.com/html/fitme/screen-short/bg.jpg)' }}>
             <div className="hero-overlay bg-black bg-opacity-70"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-xl">

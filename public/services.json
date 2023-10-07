@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Meditation",
+        "img" : "https://kit.juliha.com/yoggs/wp-content/uploads/sites/20/2021/07/meditating-fit-woman-QQMBS8Z.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Body Balance",
+        "img" : "https://kit.juliha.com/yoggs/wp-content/uploads/sites/20/2021/07/woman-wearing-fitness-clothing-in-bedroom-at-home-2021-07-13-00-29-18-utc.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Bikram Yoga",
+        "img" : "https://kit.juliha.com/yoggs/wp-content/uploads/sites/20/2021/07/focus-woman-doing-yoga-at-home-XEQ2PR8.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Stretch Yoga",
+        "img" : "https://kit.juliha.com/yoggs/wp-content/uploads/sites/20/2021/07/focus-woman-doing-yoga-at-home-XEQ2PR8.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Sports"
+    },
+    {
+        "id": "6",
+        "name": "Entertainment"
+    }
+]

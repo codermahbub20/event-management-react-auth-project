@@ -2,7 +2,7 @@
 // style={{ backgroundImage: 'url(https://www.rajibweb.com/html/fitme/images/bg/footer.jpg)' }}
 const Footer = () => {
     return (
-        <footer  className="footer w-3/4  mx-auto p-10  text-base-content">
+        <footer  className="footer sm:w-3/4 md:w-full lg:w-3/4  mx-auto p-10  text-base-content">
                         <aside>
                             <img className="w-44" src="https://helthify-demo.pbminfotech.com/demo2/wp-content/uploads/sites/3/2022/06/logo-1.png" alt="" />
                             <p className="text-xl">Healthify Industries Ltd.<br />Providing reliable tech since 1992</p>
