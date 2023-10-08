@@ -2,16 +2,19 @@
     {
       "id": 1,
       "name": "Hatha Yoga Classes",
-      "image": "https://helthify-demo.pbminfotech.com/demo1/wp-content/uploads/sites/2/2020/06/service-img-02.jpg",
-      "price": "Varies",
+      "img": "https://helthify-demo.pbminfotech.com/demo1/wp-content/uploads/sites/2/2020/06/service-img-02.jpg",
+
+      "price": 20.87,
+
       "title": "Discover balance and strength through traditional postures and breath control in our serene and revitalizing sessions.",
+
       "description": "Join our group yoga classes led by experienced instructors to improve flexibility, strength, and overall well-being. Our classes cater to all levels, from beginners to advanced practitioners. You'll learn various yoga styles, including Hatha, Vinyasa, and Ashtanga, and develop a deeper connection to your mind, body, and spirit. With a focus on breath awareness and alignment, our instructors create a nurturing environment where you can find balance, reduce stress, and enhance mindfulness. Whether you're seeking physical fitness, mental clarity, or stress relief, our yoga classes provide a holistic approach to well-being. Come and experience the transformative power of yoga in a supportive community."
   
     },
     {
       "id": 2,
       "name": "Vinyasa Flow Yoga Sessions",
-      "image": "https://kit.juliha.com/yoggs/wp-content/uploads/sites/20/2021/07/male-yoga-in-class-balance-training-54ZQRNG-819x1024.jpg",
+      "img": "https://www.rajibweb.com/html/fitme/images/courses/1.jpg",
       "price": 45.34,
       "title": " Experience fluid movements and synchronized breath to energize and align your body and mind in dynamic sessions.",
       "description": "Experience peace and tranquility with our free guided meditation sessions aimed at reducing stress and promoting mindfulness. Our skilled meditation guides will lead you through various meditation techniques, including mindfulness meditation, loving-kindness meditation, and body scan meditation. These sessions are suitable for beginners and experienced meditators alike. Discover the benefits of a regular meditation practice, such as improved focus, reduced anxiety, and enhanced emotional well-being. Our welcoming community provides a supportive space for you to explore the profound effects of meditation. Join us to cultivate inner peace and create a sense of serenity in your daily life."
@@ -19,7 +22,7 @@
     {
       "id": 3,
       "name": "Yoga for Stress Relief",
-      "image": "https://kit.juliha.com/yoggs/wp-content/uploads/sites/20/2021/07/focus-woman-doing-yoga-at-home-XEQ2PR8.jpg",
+      "img": "http://tk.commonsupport.com/healthcoach/wp-content/uploads/2016/11/featured-image-14.jpg",
       "price": 49.99,
       "title": "Find inner calm and peace through gentle poses and mindfulness techniques, combating stress in tranquil sessions",
       "description": "Get personalized nutrition guidance from our certified nutritionists to achieve your health and wellness goals. Our nutrition consultations include a thorough assessment of your dietary habits, lifestyle, and health objectives. We'll work with you to create a customized nutrition plan that supports your specific needs, whether it's weight management, dietary restrictions, or overall health improvement. Our evidence-based recommendations will empower you to make informed food choices and develop sustainable eating habits. Achieve optimal health and vitality with expert nutrition guidance. Take the first step toward a healthier you by scheduling a nutrition consultation today."
@@ -27,7 +30,7 @@
     {
       "id": 4,
       "name": "Ashtanga Yoga Workshops",
-      "image": "https://yoga-fit.cmsmasters.net/wp-content/uploads/2015/04/welfare-ngo-preview2.jpg",
+      "img": "https://yoga-fit.cmsmasters.net/wp-content/uploads/2015/04/welfare-ngo-preview2.jpg",
       "price": 599.99,
       "title": " Dive deep into this dynamic practice with expert guidance, enhancing strength, flexibility, and mindfulness in intensive sessions",
       "description": "Escape to the serene mountains for a weekend of yoga, relaxation, and rejuvenation with like-minded individuals. Our yoga retreat offers a unique opportunity to disconnect from the daily grind and reconnect with nature and your inner self. Set amidst breathtaking mountain landscapes, this retreat includes daily yoga and meditation sessions, guided hikes, nutritious meals, and comfortable accommodation. Whether you're a seasoned yogi or a beginner, our experienced instructors will guide you on a transformative journey of self-discovery and renewal. Experience the healing power of the mountains as you unwind, de-stress, and revitalize your body and mind."
@@ -35,7 +38,7 @@
     {
       "id": 5,
       "name": "Yin Yoga and Meditation Retreat",
-      "image": "https://yoga-fit.cmsmasters.net/wp-content/uploads/2015/04/photodune-11523136-exercise-on-mat-s1.jpg",
+      "img": "https://yoga-fit.cmsmasters.net/wp-content/uploads/2015/04/photodune-11523136-exercise-on-mat-s1.jpg",
       "price": 79.99,
       "title": "Embrace stillness, relax deeply, and enhance mindfulness during our soothing and introspective retreat in serene settings.",
       "description": "Indulge in a therapeutic massage session to relieve muscle tension, improve circulation, and promote relaxation. Our skilled massage therapists specialize in a variety of techniques, including Swedish massage, deep tissue massage, and hot stone therapy. Each session is tailored to your specific needs, whether you're seeking relief from chronic pain or simply want to relax and unwind. Experience the rejuvenating effects of our massages as they melt away stress and restore balance to your body. Treat yourself to the ultimate relaxation and self-care with our therapeutic massage services. Reconnect with your body's natural state of well-being and leave feeling refreshed and revitalized."
@@ -43,7 +46,7 @@
     {
       "id": 6,
       "name": "Prenatal Yoga for Expecting Mothers",
-      "image": "https://yoga-fit.cmsmasters.net/wp-content/uploads/2015/07/photodune-7448230-group-yoga-sessions-s.jpg",
+      "img": "https://yoga-fit.cmsmasters.net/wp-content/uploads/2015/07/photodune-7448230-group-yoga-sessions-s.jpg",
       "price": 29.99,
       "title": "Nurture your well-being and bond with your baby through gentle movements and relaxation techniques in our supportive classes.",
       "description": "Participate in our wellness workshops to learn about holistic health practices, stress management, and more. Our interactive workshops cover a wide range of topics, including nutrition, mindfulness, yoga, and mental well-being. Led by experienced wellness experts, these workshops provide practical tools and strategies to enhance your overall health and happiness. Whether you're looking to boost your energy, reduce stress, or achieve greater balance in your life, our wellness workshops offer valuable insights and actionable steps. Join our community of wellness enthusiasts and embark on a journey toward a healthier, happier you."
