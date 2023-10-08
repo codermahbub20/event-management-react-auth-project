@@ -1,6 +1,9 @@
+
+import Service from "../../Components/Services/Service";
 import Gallery from "../Gallery/Gallery";
 
 const Home = () => {
+
     return (
       <div>
           <div className="hero sm:min-h-screen md:min-h-[80vh] lg:min-h-screen " style={{ backgroundImage: 'url(https://www.rajibweb.com/html/fitme/screen-short/bg.jpg)' }}>
@@ -13,7 +16,10 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <Service></Service>
         <Gallery></Gallery>
+
+       
       </div>
         
     );
