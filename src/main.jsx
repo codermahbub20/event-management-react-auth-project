@@ -12,12 +12,15 @@ import Gallery from './Pages/Gallery/Gallery';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import Authprovider from './providers/Authprovider';
+import ServiceDetails from './Components/Services/ServiceDetails/ServiceDetails';
+import Errorpage from './Components/ErrorPage/Errorpage';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Errorpage></Errorpage>,
     children: [
       {
         path: "/",
@@ -34,6 +37,11 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>
+      },
+      {
+        path: "/service/:id",
+        element: <ServiceDetails></ServiceDetails>,
+        loader: () => fetch('../public/services.json')
       }
 
     ]

@@ -34,7 +34,7 @@ const Navbar = () => {
                         {routeLinks}
                     </ul>
                 </div>
-                <img className="lg:w-44" src="https://helthify-demo.pbminfotech.com/demo2/wp-content/uploads/sites/3/2022/06/logo-1.png" alt="" />
+                <img className="w-20 md:w-28 lg:w-44" src="https://helthify-demo.pbminfotech.com/demo2/wp-content/uploads/sites/3/2022/06/logo-1.png" alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu font-medium text-xl menu-horizontal px-1">
@@ -45,7 +45,10 @@ const Navbar = () => {
             <div className="navbar-end">
 
             {
-                user && <p>{user.email}</p>
+                user ? <>
+                <p>{user.email}</p>
+                <img src={user.photoUrl} alt="" />
+                </>: <img className="w-12" src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" alt="" />
             }
 
                 {
@@ -53,6 +56,7 @@ const Navbar = () => {
                         <button onClick={handleLogout} className="btn  bg-black btn-secondary text-white">Log Out</button>
                         :
                         <NavLink to="/login"><button className="btn btn-secondary text-white">Login</button></NavLink>
+
                 }
             </div>
         </div>

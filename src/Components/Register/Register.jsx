@@ -1,10 +1,11 @@
 import { useContext } from "react";
 import { AuthContext } from "../../providers/Authprovider";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Register = () => {
-
+    const notify = () => toast("Registration Successful!");
     const { createUser } = useContext(AuthContext)
 
     const handleRegister = (e) => {
@@ -22,6 +23,7 @@ const Register = () => {
             .catch(error => {
                 console.log(error)
             })
+            notify()
     }
 
 
@@ -53,11 +55,12 @@ const Register = () => {
                         </div>
                         <p>Already you have an account please? <a className="tex-xl font-bold text-blue-600" href="/login">Log In</a></p>
                         <div className="form-control mt-6">
-                            <button className="btn btn-secondary">Register</button>
+                            <button  className="btn btn-secondary">Register</button>
                         </div>
                     </form>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };

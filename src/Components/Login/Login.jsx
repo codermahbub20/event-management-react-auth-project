@@ -47,7 +47,8 @@ const Login = () => {
                             </label>
                         </div>
                         <p>First time visit this website please? <a className="tex-xl font-bold text-blue-600" href="/register">Register</a></p>
-                        <div className="form-control mt-6">
+                        <button className="btn btn-accent mt-2">Google</button>
+                        <div className="form-control mt-3">
                             <button className="btn btn-secondary">Login</button>
                         </div>
                     </form>

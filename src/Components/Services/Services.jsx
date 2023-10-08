@@ -6,7 +6,7 @@ const Services = ({ service }) => {
 
    console.log(service)
 
-   const{img,name,title,description,price} = service;
+   const{img,name,title,description,price,id} = service;
 
     return (
         <div>
@@ -22,7 +22,7 @@ const Services = ({ service }) => {
                     <h4>{title}</h4>
                     <div className="flex items-center justify-between">
                         <span className="text-xl font-bold text-gray-900 dark:text-white">${price}</span>
-                        <Link className="btn btn-sm btn-secondary">More Details</Link>
+                        <Link to={`/service/${id}`} className="btn btn-sm btn-secondary">More Details</Link>
                     </div>
                 </div>
             </div>
