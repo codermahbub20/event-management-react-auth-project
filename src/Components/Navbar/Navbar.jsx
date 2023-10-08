@@ -16,7 +16,6 @@ const Navbar = () => {
 
     const routeLinks = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="#gallery">Gallery</Link></li>
         <li><Link to="/login">Login</Link></li>
         <li><Link to="register">Register</Link></li>
 
@@ -46,8 +45,8 @@ const Navbar = () => {
 
             {
                 user ? <>
-                <p>{user.email}</p>
-                <img src={user.photoUrl} alt="" />
+                <p className="text-lg text-rose-600">{user.email}</p>
+                <img className="rounded-full p-2 w-16" src={user.photoURL} alt="" />
                 </>: <img className="w-12" src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" alt="" />
             }
 
