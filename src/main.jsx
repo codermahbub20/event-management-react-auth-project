@@ -16,6 +16,7 @@ import ServiceDetails from './Components/Services/ServiceDetails/ServiceDetails'
 import Errorpage from './Components/ErrorPage/Errorpage';
 import PrivateRoute from './privateRoute/PrivateRoute';
 import Pricing from './Components/Pricing/Pricing';
+import Process from './Components/Process/Process';
 
 
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: "/pricing",
         element: <Pricing></Pricing>
+      },
+      {
+        path: "/process",
+        element: <Process></Process>
       }
 
     ]

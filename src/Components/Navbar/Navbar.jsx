@@ -20,6 +20,7 @@ const Navbar = () => {
         <li><Link to="/login">Login</Link></li>
         <li><Link to="/register">Register</Link></li>
         <PrivateRoute><li><Link to="/pricing">Pricing</Link></li></PrivateRoute>
+        <PrivateRoute><li><Link to="/process">Our Process</Link></li></PrivateRoute>
 
     </>
 
@@ -47,14 +48,14 @@ const Navbar = () => {
 
             {
                 user ? <>
-                <p className="text-lg text-rose-600">{user.email}</p>
-                <img className="rounded-full p-2 w-16" src={user.photoURL} alt="" />
-                </>: <img className="w-12" src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" alt="" />
+                <p className="sm:text-sm md:text-lg text-rose-600">{user.email}</p>
+                <img className="rounded-full p-2 w-10 " src={user.photoURL} alt="" />
+                </>: <img className="sm:w-6 md:w-12" src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" alt="" />
             }
 
                 {
                     user ?
-                        <button onClick={handleLogout} className="btn  bg-black btn-secondary text-white">Log Out</button>
+                        <button onClick={handleLogout} className="btn btn-sm bg-black btn-secondary text-white">Log Out</button>
                         :
                         <NavLink to="/login"><button className="btn btn-secondary text-white">Login</button></NavLink>
 

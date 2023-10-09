@@ -1,14 +1,12 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../../providers/Authprovider";
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
-import { useLocation, useNavigate } from "react-router-dom";
+
 
 
 
 const Login = () => {
 
-    const location = useLocation();
-    const navigate = useNavigate();
 
     const [loginError, setLogInError] = useState('');
 
@@ -29,7 +27,7 @@ const Login = () => {
                 console.log(res)
 
                 // navigate 
-                navigate(location?.state ? location.state : '/')
+            
             })
             .catch(error => {
                 console.log(error)
