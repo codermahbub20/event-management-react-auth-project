@@ -7,7 +7,7 @@ import Faq from "./FAQ's/Faq";
 const Home = () => {
 
     return (
-      <div>
+      <div data-aos="fade-up" data-aos-duration="2000">
           <div className="hero sm:min-h-screen md:min-h-[80vh] lg:min-h-screen " style={{ backgroundImage: 'url(https://www.rajibweb.com/html/fitme/screen-short/bg.jpg)' }}>
             <div className="hero-overlay bg-black bg-opacity-70"></div>
             <div className="hero-content text-center text-neutral-content">

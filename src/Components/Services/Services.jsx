@@ -11,7 +11,7 @@ const Services = ({ service }) => {
     return (
         <div>
     
-            <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div data-aos="fade-up-right" data-aos-duration="2000" className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img className="p-8 h-[300px] rounded-t-lg" src={img} alt="product image" />
                 </a>

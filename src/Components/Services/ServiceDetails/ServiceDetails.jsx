@@ -13,8 +13,8 @@ const ServiceDetails = () => {
 
 
     return (
-        <div>
-            <div className="hero min-h-screen bg-base-200">
+        <div >
+            <div  className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row">
                     <img  src={detail.img} className="max-w-xl  rounded-lg shadow-2xl" />
                     <div>
