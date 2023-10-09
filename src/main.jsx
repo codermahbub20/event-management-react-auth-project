@@ -14,6 +14,7 @@ import Register from './Components/Register/Register';
 import Authprovider from './providers/Authprovider';
 import ServiceDetails from './Components/Services/ServiceDetails/ServiceDetails';
 import Errorpage from './Components/ErrorPage/Errorpage';
+import PrivateRoute from './privateRoute/PrivateRoute';
 
 
 const router = createBrowserRouter([
@@ -40,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/service/:id",
-        element: <ServiceDetails></ServiceDetails>,
+        element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
         loader: () => fetch('../public/services.json')
       }
 

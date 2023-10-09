@@ -1,10 +1,16 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../providers/Authprovider";
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
+import { useLocation, useNavigate } from "react-router-dom";
 
 
 
 const Login = () => {
+
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const [loginError, setLogInError] = useState('');
 
     const { logIN } = useContext(AuthContext)
 
@@ -21,9 +27,13 @@ const Login = () => {
         logIN(email, password)
             .then(res => {
                 console.log(res)
+
+                // navigate 
+                navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
                 console.log(error)
+                setLogInError(error.message)
             })
     }
 
@@ -66,6 +76,9 @@ const Login = () => {
                             <button className="btn btn-secondary">Login</button>
                         </div>
                     </form>
+                    {
+                        loginError && <p className="text-xl text-red-400">{loginError}</p>
+                    }
                 </div>
             </div>
         </div>

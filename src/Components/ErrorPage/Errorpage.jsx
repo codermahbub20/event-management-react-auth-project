@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../../Pages/Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 
@@ -12,7 +13,7 @@ const Errorpage = () => {
                     <div>
                         <img className="lg:max-w-xl" src="https://kit.juliha.com/yoggs/wp-content/uploads/sites/20/2021/07/404_Asset-3-1024x431.png" alt="" />
                         <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-secondary">Go to HomePage</button>
+                        <Link to="/"><button className="btn btn-secondary">Go to HomePage</button></Link>
                     </div>
                 </div>
             </div>

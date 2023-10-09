@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext} from "react";
 import { AuthContext } from "../../providers/Authprovider";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -6,6 +6,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
     const notify = () => toast("Registration Successful!");
+    const notify1 = () => toast('Password should be at 6 characters or longer');
+    const notify2 = () => toast('your Password should have at one upper case latter');
+    const notify3 = () => toast('your Password should have at one special characters');
     const { createUser } = useContext(AuthContext)
 
     const handleRegister = (e) => {
@@ -15,6 +18,17 @@ const Register = () => {
         const email = form.get('email');
         const password = form.get('password');
         console.log(name, email, password)
+
+        if(password.length < 6){
+            notify1();
+            return;
+        }else if(!/[A-Z]/.test(password)){
+            notify2();
+            return;
+        }else if(!/^(?=.*[\d])(?=.*[!@#$%^&*])[\w!@#$%^&*]{6,16}$/.test(password)){
+            notify3();
+            return;
+        }
 
          createUser(email, password)
             .then(result => {
