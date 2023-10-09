@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../providers/Authprovider";
+import PrivateRoute from "../../privateRoute/PrivateRoute";
 
 const Navbar = () => {
 
@@ -17,7 +18,8 @@ const Navbar = () => {
     const routeLinks = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/login">Login</Link></li>
-        <li><Link to="register">Register</Link></li>
+        <li><Link to="/register">Register</Link></li>
+        <PrivateRoute><li><Link to="/pricing">Pricing</Link></li></PrivateRoute>
 
     </>
 
